@@ -29,7 +29,7 @@ void drawDebug(DebugRenderer& debugRenderer, uint vertexPositionLoc, uint vertex
 int widthScreen = 1024;
 int heightScreen = 768;
 
-Camera camera(glm::vec3(0.0f, 5.0f, 15.0f));
+Camera camera(glm::vec3(0.0f, 0.0f, 15.0f));
 float lastX = widthScreen / 2.0f;
 float lastY = heightScreen / 2.0f;
 bool firstMouse = true;
@@ -130,14 +130,12 @@ int main()
     world->setIsDebugRenderingEnabled(true);
 
     Object* floor = new Object(glm::vec3(0, 0, 0));
-    floor->create(physicsCommon, world, BodyType::STATIC, Vector3(5,1,5));
+    floor->create(physicsCommon, world, BodyType::STATIC, Vector3(5, 1, 5));
 
     DebugRenderer& debugRenderer = world->getDebugRenderer();
 
     // Select the contact points and contact normals to be displayed
     debugRenderer.setIsDebugItemDisplayed(DebugRenderer::DebugItem::COLLISION_SHAPE, true);
-    //debugRenderer.setIsDebugItemDisplayed(DebugRenderer::DebugItem::COLLISION_SHAPE_NORMAL, true);
-    //debugRenderer.setIsDebugItemDisplayed(DebugRenderer::DebugItem::COLLIDER_AABB, true);
 
     // wireframe
     glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -150,6 +148,9 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {
+        glfwPollEvents();
+        processInput(window, physicsCommon, world);
+
         rp3d::DebugRenderer& debugRenderer = world->getDebugRenderer();
 
         // ----- Triangles ---- //
@@ -157,16 +158,14 @@ int main()
 
         std::cout << nbTriangles << std::endl;
 
-        if (nbTriangles > 0) {
-
+        if (nbTriangles > 0)
+        {
             // Vertices
             mDebugVBOTrianglesVertices.bind();
             GLsizei sizeVertices = static_cast<GLsizei>(nbTriangles * sizeof(rp3d::DebugRenderer::DebugTriangle));
             mDebugVBOTrianglesVertices.copyDataIntoVBO(sizeVertices, debugRenderer.getTrianglesArray(), GL_STREAM_DRAW);
             mDebugVBOTrianglesVertices.unbind();
         }
-
-        processInput(window, physicsCommon, world);
 
         glClearColor(0.15f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -215,9 +214,9 @@ int main()
         }
 
         glfwSwapBuffers(window);
-        glfwPollEvents();
     }
 
+    glfwDestroyWindow(window);
     glfwTerminate();
 
 	return 0;
@@ -277,11 +276,12 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 void createBox(PhysicsCommon& common, PhysicsWorld* world)
 {
-    Object* object = new Object(glm::vec3(-2, 6, 4));
+    glm::vec3 spawnPosition = (camera.Front * glm::vec3(15)) + camera.Position;
+    Object* object = new Object(spawnPosition);
 
     boxes.push_back(object);
-    object->create(common, world, BodyType::DYNAMIC, Vector3(1, 1, 1));
-    // object->getRigidBody()->applyLocalForceAtLocalPosition(Vector3(0, 0, -1000), Vector3(0.15, 0.7, 1.5));
+    object->create(common, world, BodyType::DYNAMIC, Vector3(1.5, 1.5, 1.5));
+    object->getRigidBody()->applyLocalForceAtLocalPosition(Vector3(1000, 1000, 1000) * Vector3(camera.Front.x, camera.Front.y, camera.Front.z), Vector3(0.15, 0.7, 1.5));
 }
 
 void drawDebug(DebugRenderer& debugRenderer, uint vertexPositionLoc, uint vertexColorLoc)

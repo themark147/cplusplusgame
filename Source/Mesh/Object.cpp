@@ -29,12 +29,12 @@ glm::vec3 Object::getPosition()
 	// Display the position of the body
 	// std::cout << "Body Position: (" << position.x << ", " << position.y << ", " << position.z << ")" << std::endl;
 
-	// Vector3 localRigidBodyPosition = rigidBody->getCollider(0)->getLocalToBodyTransform().getPosition();
-	Transform newTransform = rigidBody->getTransform();
+	Vector3 localRigidBodyPosition = rigidBody->getTransform().getPosition();
+	/*Transform newTransform = rigidBody->getTransform();
 	rp3d::Transform interpolatedTransform = rp3d::Transform::interpolateTransforms(transform, newTransform, 1.0f);
 	transform = newTransform;
 
-	Vector3 localRigidBodyPosition = interpolatedTransform.getPosition();
+	Vector3 localRigidBodyPosition = interpolatedTransform.getPosition();*/
 
 	return glm::vec3(localRigidBodyPosition.x, localRigidBodyPosition.y, localRigidBodyPosition.z);
 }
