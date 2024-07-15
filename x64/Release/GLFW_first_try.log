@@ -1,0 +1,64 @@
+﻿  MainReactPhysics.cpp
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,124): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,54): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,128): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,58): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\ConvexMesh.h(138,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(146,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(151,30): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(190,41): warning C4244: 'argument': conversion from '_Rep' to 'reactphysics3d::decimal', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(239,56): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(241,57): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(243,53): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(245,54): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(255,70): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(250,14): message : while compiling class template member function 'void reactphysics3d::Array<reactphysics3d::uint>::reserve(reactphysics3d::uint64)'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\Islands.h(134,44): message : see the first reference to 'reactphysics3d::Array<reactphysics3d::uint>::reserve' in 'reactphysics3d::Islands::reserveMemory'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\components\RigidBodyComponents.h(862,57): message : see reference to class template instantiation 'reactphysics3d::Array<reactphysics3d::uint>' being compiled
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(283,90): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(260,14): message : while compiling class template member function 'void reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve(reactphysics3d::uint64)'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(401,24): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve' in 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(425,41): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add' in 'reactphysics3d::CollisionDetectionSystem::addCollider'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(109,26): message : see reference to class template instantiation 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>' being compiled
+          with
+          [
+              V=int
+          ]
+  Generating code
+  4 of 1496 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GLFW_first_try.vcxproj -> C:\Users\marku\source\repos\GLFW_first_try\x64\Release\GLFW_first_try.exe

@@ -1,0 +1,408 @@
+﻿  glad.c
+  CubeClass.cpp
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\CubeClass.cpp(14,26): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  Main.cpp
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\Model.h(66,35): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Main2.cpp
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,124): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,54): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,128): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,58): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\ConvexMesh.h(138,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(146,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(151,30): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(255,70): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(250,14): message : while compiling class template member function 'void reactphysics3d::Array<reactphysics3d::uint>::reserve(reactphysics3d::uint64)'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\Islands.h(134,44): message : see the first reference to 'reactphysics3d::Array<reactphysics3d::uint>::reserve' in 'reactphysics3d::Islands::reserveMemory'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\components\RigidBodyComponents.h(862,57): message : see reference to class template instantiation 'reactphysics3d::Array<reactphysics3d::uint>' being compiled
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(283,90): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(260,14): message : while compiling class template member function 'void reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve(reactphysics3d::uint64)'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(401,24): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve' in 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(425,41): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add' in 'reactphysics3d::CollisionDetectionSystem::addCollider'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(109,26): message : see reference to class template instantiation 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>' being compiled
+          with
+          [
+              V=int
+          ]
+  Main3.cpp
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,124): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(238,54): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,128): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\OverlappingPairs.h(269,58): warning C4244: 'initializing': conversion from 'float' to 'const size_t', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\ConvexMesh.h(138,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(146,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(151,30): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(255,70): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Array.h(250,14): message : while compiling class template member function 'void reactphysics3d::Array<reactphysics3d::uint>::reserve(reactphysics3d::uint64)'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\engine\Islands.h(134,44): message : see the first reference to 'reactphysics3d::Array<reactphysics3d::uint>::reserve' in 'reactphysics3d::Islands::reserveMemory'
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\components\RigidBodyComponents.h(862,57): message : see reference to class template instantiation 'reactphysics3d::Array<reactphysics3d::uint>' being compiled
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(283,90): warning C4244: '=': conversion from 'float' to 'reactphysics3d::uint64', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(260,14): message : while compiling class template member function 'void reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve(reactphysics3d::uint64)'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\containers\Map.h(401,24): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::reserve' in 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(425,41): message : see the first reference to 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>::add' in 'reactphysics3d::CollisionDetectionSystem::addCollider'
+          with
+          [
+              V=int
+          ]
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\systems\CollisionDetectionSystem.h(109,26): message : see reference to class template instantiation 'reactphysics3d::Map<int,reactphysics3d::Entity,std::hash<int>,std::equal_to<V>>' being compiled
+          with
+          [
+              V=int
+          ]
+  MainShaderTry.cpp
+  MainVulkan.cpp
+  Generating Code...
+reactphysics3d.lib(PhysicsCommon.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(PoolAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HeapAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SingleFrameAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(MemoryManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(DynamicAABBTree.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HalfEdgeStructure.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(PhysicsWorld.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SphereShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(BoxShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CapsuleShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HeightField.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HeightFieldShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConvexMesh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConvexMeshShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConcaveMeshShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(TriangleMesh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(DefaultLogger.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(PolygonVertexArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(QuickHull.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(MemoryAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Quaternion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Body.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(RigidBody.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Joint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(EntityManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Components.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(BodyComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(RigidBodyComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(TransformComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ColliderComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(JointComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(BallAndSocketJointComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(FixedJointComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HingeJointComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SliderJointComponents.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Collider.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(OverlappingPairs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConstraintSolverSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(BroadPhaseSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(NarrowPhaseInfoBatch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CollisionDispatch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CollisionDetectionSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ContactSolverSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(DynamicsSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(DebugRenderer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(BallAndSocketJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SliderJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(HingeJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(FixedJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConvexShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(AABB.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CollisionShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConvexPolyhedronShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Vector3.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(TriangleShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConcaveShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(TriangleVertexArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(QHHalfEdgeStructure.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Material.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Entity.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SolveBallAndSocketJointSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SolveFixedJointSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SolveHingeJointSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SolveSliderJointSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(RaycastInfo.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ContactPoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ContactManifold.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SphereVsSphereAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SphereVsConvexPolyhedronAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SphereVsCapsuleAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CapsuleVsCapsuleAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CapsuleVsConvexPolyhedronAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(ConvexPolyhedronVsConvexPolyhedronAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(NarrowPhaseInput.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(CollisionCallback.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(OverlapCallback.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Matrix3x3.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(Matrix2x2.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(GJKAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(SATAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+reactphysics3d.lib(VoronoiSimplex.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MTd_StaticDebug' in CubeClass.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) already defined in libcpmtd0.lib(locale.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) already defined in libcpmtd0.lib(wlocale.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) already defined in libcpmtd0.lib(wlocale.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: bool __cdecl std::ios_base::good(void)const " (?good@ios_base@std@@QEBA_NXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const " (?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *,char *)" (?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::basic_iostream<char,struct std::char_traits<char> >::basic_iostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *)" (??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_iostream<char,struct std::char_traits<char> >::~basic_iostream<char,struct std::char_traits<char> >(void)" (??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QEAA@H@Z) already defined in libcpmtd0.lib(xlock.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QEAA@XZ) already defined in libcpmtd0.lib(xlock.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::locale::id::operator unsigned __int64(void)" (??Bid@locale@std@@QEAA_KXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: bool __cdecl std::codecvt_base::always_noconv(void)const " (?always_noconv@codecvt_base@std@@QEBA_NXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet &,char *,char *,char * &)const " (?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: static unsigned __int64 __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::locale __cdecl std::ios_base::getloc(void)const " (?getloc@ios_base@std@@QEBA?AVlocale@2@XZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::locale __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gnavail(void)const " (?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail(void)const " (?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) already defined in Main.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) already defined in libcpmtd0.lib(cout.obj)
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void)" (??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in Main3.obj
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: static unsigned __int64 __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Getcat(class std::locale::facet const * *,class std::locale const *)" (?_Getcat@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) already defined in libcpmtd0.lib(xlocale.obj)
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SATAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(VoronoiSimplex.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(OverlapCallback.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Matrix3x3.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Matrix2x2.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(GJKAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CapsuleVsConvexPolyhedronAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConvexPolyhedronVsConvexPolyhedronAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(NarrowPhaseInput.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CollisionCallback.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SphereVsSphereAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SphereVsConvexPolyhedronAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SphereVsCapsuleAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CapsuleVsCapsuleAlgorithm.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SolveSliderJointSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(RaycastInfo.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ContactPoint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ContactManifold.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Entity.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SolveBallAndSocketJointSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SolveFixedJointSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SolveHingeJointSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConcaveShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(TriangleVertexArray.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(QHHalfEdgeStructure.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Material.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CollisionShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConvexPolyhedronShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Vector3.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(TriangleShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HingeJoint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(FixedJoint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConvexShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(AABB.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(DynamicsSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(DebugRenderer.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(BallAndSocketJoint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SliderJoint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(NarrowPhaseInfoBatch.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CollisionDispatch.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CollisionDetectionSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ContactSolverSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Collider.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(OverlappingPairs.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConstraintSolverSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(BroadPhaseSystem.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(BallAndSocketJointComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(FixedJointComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HingeJointComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SliderJointComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(RigidBodyComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(TransformComponents.obj)'
+LINK : warning LNK4217: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ColliderComponents.obj)' in function '"void __cdecl reactphysics3d::`dynamic atexit destructor for 'RP3D_VERSION''(void)" (??__FRP3D_VERSION@reactphysics3d@@YAXXZ)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(JointComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Joint.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(EntityManager.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Components.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(BodyComponents.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(MemoryAllocator.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Quaternion.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(Body.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(RigidBody.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(TriangleMesh.obj)'
+LINK : warning LNK4217: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(PolygonVertexArray.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(QuickHull.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HeightFieldShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConvexMesh.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConvexMeshShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(ConcaveMeshShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SphereShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(BoxShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(CapsuleShape.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HeightField.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(MemoryManager.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(DynamicAABBTree.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HalfEdgeStructure.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(PhysicsWorld.obj)'
+LINK : warning LNK4217: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(PhysicsCommon.obj)' in function '"void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(PoolAllocator.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(HeapAllocator.obj)'
+LINK : warning LNK4286: symbol '_invalid_parameter_noinfo_noreturn' defined in 'libucrtd.lib(invalid_parameter.obj)' is imported by 'reactphysics3d.lib(SingleFrameAllocator.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(HingeJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(FixedJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(TriangleShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'glfw3.lib(init.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(RigidBody.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(Collider.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(BallAndSocketJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(SliderJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(HeightFieldShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(ConvexMeshShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(ConcaveMeshShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(Body.obj)'
+LINK : warning LNK4217: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(PhysicsWorld.obj)' in function '_scprintf'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(SphereShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(BoxShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(CapsuleShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(HingeJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(FixedJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(TriangleShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(RigidBody.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(Collider.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(BallAndSocketJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(SliderJoint.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(HeightFieldShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(ConvexMeshShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(ConcaveMeshShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(Body.obj)'
+LINK : warning LNK4217: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(PhysicsWorld.obj)' in function 'sprintf_s'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(SphereShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(BoxShape.obj)'
+LINK : warning LNK4286: symbol '__stdio_common_vsprintf_s' defined in 'libucrtd.lib(output.obj)' is imported by 'reactphysics3d.lib(CapsuleShape.obj)'
+LINK : warning LNK4217: symbol '_get_stream_buffer_pointers' defined in 'libucrtd.lib(_file.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"public: __cdecl std::basic_ofstream<char,struct std::char_traits<char> >::basic_ofstream<char,struct std::char_traits<char> >(char const *,int,int)" (??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z)'
+LINK : warning LNK4217: symbol 'fclose' defined in 'libucrtd.lib(fclose.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"public: class std::basic_filebuf<char,struct std::char_traits<char> > * __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::close(void)" (?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ)'
+LINK : warning LNK4217: symbol 'fflush' defined in 'libucrtd.lib(fflush.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual int __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ)'
+LINK : warning LNK4217: symbol 'fgetc' defined in 'libucrtd.lib(fgetc.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual int __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::uflow(void)" (?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ)'
+LINK : warning LNK4217: symbol 'fgetpos' defined in 'libucrtd.lib(fgetpos.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z)'
+LINK : warning LNK4217: symbol 'fputc' defined in 'libucrtd.lib(fputc.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual int __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::overflow(int)" (?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z)'
+LINK : warning LNK4217: symbol 'fread' defined in 'libucrtd.lib(fread.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual __int64 __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z)'
+LINK : warning LNK4217: symbol 'fsetpos' defined in 'libucrtd.lib(fsetpos.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekpos(class std::fpos<struct _Mbstatet>,int)" (?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z)'
+LINK : warning LNK4217: symbol '_fseeki64' defined in 'libucrtd.lib(fseek.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z)'
+LINK : warning LNK4217: symbol 'fwrite' defined in 'libucrtd.lib(fwrite.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: bool __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)" (?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ)'
+LINK : warning LNK4217: symbol 'setvbuf' defined in 'libucrtd.lib(setvbuf.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z)'
+LINK : warning LNK4217: symbol 'ungetc' defined in 'libucrtd.lib(ungetc.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"protected: virtual int __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::pbackfail(int)" (?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z)'
+LINK : warning LNK4217: symbol '_lock_file' defined in 'libucrtd.lib(_file.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"public: virtual void __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ)'
+LINK : warning LNK4217: symbol '_unlock_file' defined in 'libucrtd.lib(_file.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"public: virtual void __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ)'
+LINK : warning LNK4217: symbol 'tolower' defined in 'libucrtd.lib(tolower_toupper.obj)' is imported by 'reactphysics3d.lib(DefaultLogger.obj)' in function '"public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl reactphysics3d::DefaultLogger::HtmlFormatter::format(__int64 const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum reactphysics3d::Logger::Level,enum reactphysics3d::Logger::Category,char const *,int)" (?format@HtmlFormatter@DefaultLogger@reactphysics3d@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEB_JAEBV45@1W4Level@Logger@3@W4Category@73@PEBDH@Z)'
+LINK : warning LNK4217: symbol 'strcspn' defined in 'libucrtd.lib(strcspn.obj)' is imported by 'glfw3.lib(input.obj)' in function 'glfwUpdateGamepadMappings'
+LINK : warning LNK4217: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(input.obj)' in function 'parseMapping'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(init.obj)'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(context.obj)'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4217: symbol 'strncpy' defined in 'libucrtd.lib(strncpy.obj)' is imported by 'glfw3.lib(input.obj)' in function '_glfwAllocJoystick'
+LINK : warning LNK4286: symbol 'strncpy' defined in 'libucrtd.lib(strncpy.obj)' is imported by 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: symbol 'strncpy' defined in 'libucrtd.lib(strncpy.obj)' is imported by 'glfw3.lib(window.obj)'
+LINK : warning LNK4286: symbol 'strncpy' defined in 'libucrtd.lib(strncpy.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(wgl_context.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(osmesa_context.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(win32_window.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(vulkan.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(win32_init.obj)'
+LINK : warning LNK4217: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(input.obj)' in function '_glfwFreeJoystick'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(init.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(window.obj)'
+LINK : warning LNK4217: symbol 'realloc' defined in 'libucrtd.lib(realloc.obj)' is imported by 'glfw3.lib(input.obj)' in function 'glfwUpdateGamepadMappings'
+LINK : warning LNK4286: symbol 'realloc' defined in 'libucrtd.lib(realloc.obj)' is imported by 'glfw3.lib(init.obj)'
+LINK : warning LNK4286: symbol 'realloc' defined in 'libucrtd.lib(realloc.obj)' is imported by 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: symbol 'realloc' defined in 'libucrtd.lib(realloc.obj)' is imported by 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4217: symbol 'strtoul' defined in 'libucrtd.lib(strtox.obj)' is imported by 'glfw3.lib(input.obj)' in function 'parseMapping'
+LINK : warning LNK4217: symbol 'strtol' defined in 'libucrtd.lib(strtox.obj)' is imported by 'glfw3.lib(init.obj)' in function '_glfwParseUriList'
+LINK : warning LNK4217: symbol 'qsort' defined in 'libucrtd.lib(qsort.obj)' is imported by 'glfw3.lib(monitor.obj)' in function 'refreshVideoModes'
+LINK : warning LNK4217: symbol 'qsort' defined in 'libucrtd.lib(qsort.obj)' is imported by 'glfw3.lib(win32_joystick.obj)' in function '_glfwInitJoysticksWin32'
+LINK : warning LNK4217: symbol '__stdio_common_vsscanf' defined in 'libucrtd.lib(input.obj)' is imported by 'glfw3.lib(context.obj)' in function 'sscanf'
+glfw3.lib(osmesa_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(window.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_window.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(TriangleShape.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(init.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(DefaultLogger.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(Body.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(RigidBody.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(Collider.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(PhysicsCommon.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(PhysicsWorld.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(BoxShape.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(ConvexMesh.obj) : error LNK2001: unresolved external symbol __imp_calloc
+reactphysics3d.lib(MemoryManager.obj) : error LNK2019: unresolved external symbol __imp__aligned_free referenced in function "public: virtual void __cdecl reactphysics3d::DefaultAllocator::release(void *,unsigned __int64)" (?release@DefaultAllocator@reactphysics3d@@UEAAXPEAX_K@Z)
+reactphysics3d.lib(MemoryManager.obj) : error LNK2019: unresolved external symbol __imp__aligned_malloc referenced in function "public: virtual void * __cdecl reactphysics3d::DefaultAllocator::allocate(unsigned __int64)" (?allocate@DefaultAllocator@reactphysics3d@@UEAAPEAX_K@Z)
+reactphysics3d.lib(DefaultLogger.obj) : error LNK2019: unresolved external symbol __imp__localtime64_s referenced in function "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl reactphysics3d::DefaultLogger::HtmlFormatter::format(__int64 const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum reactphysics3d::Logger::Level,enum reactphysics3d::Logger::Category,char const *,int)" (?format@HtmlFormatter@DefaultLogger@reactphysics3d@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEB_JAEBV45@1W4Level@Logger@3@W4Category@73@PEBDH@Z)
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strspn referenced in function glfwUpdateGamepadMappings
+glfw3.lib(init.obj) : error LNK2019: unresolved external symbol __imp_strtok referenced in function _glfwParseUriList
+C:\Users\marku\source\repos\GLFW_first_try\x64\Debug\GLFW_first_try.exe : fatal error LNK1120: 6 unresolved externals
