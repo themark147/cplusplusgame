@@ -139,9 +139,6 @@ int main()
     PhysicsWorld* world = physicsCommon.createPhysicsWorld();
     world->setIsDebugRenderingEnabled(true);
 
-    Object* floor = new Object(glm::vec3(0, 0, 0));
-    floor->create(physicsCommon, world, BodyType::STATIC, Vector3(5, 1, 5));
-
     DebugRenderer& debugRenderer = world->getDebugRenderer();
 
     // Select the contact points and contact normals to be displayed
@@ -152,6 +149,9 @@ int main()
     mStartTime = std::chrono::high_resolution_clock::now();
     mLastUpdateTime = mStartTime;
     mAccumulator = std::chrono::duration<double>::zero();
+
+    Object* floor = new Object(glm::vec3(0, -10, 0));
+    floor->create(physicsCommon, world, BodyType::STATIC, Vector3(10, 1, 10));
 
     while (!glfwWindowShouldClose(window))
     {
@@ -200,7 +200,7 @@ int main()
         
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, floor->getPosition());
-        mainShader.setMat4("model", model * floor->getRotationMatrix());
+        mainShader.setMat4("model", floor->getRotationMatrix());
         floorModel.Draw(mainShader);
 
         int vertexPositionLoc = mainShader.getAttribLocation("aPos");
@@ -217,8 +217,8 @@ int main()
         {
             lightingShader.use();
 
-            lightingShader.setVec3("light.direction", 0.0f, -5.0f, 0.0f);
-            lightingShader.setVec3("viewPos", camera.Position);
+            lightingShader.setVec3("light.position", 0.0f, 7.0f, 0.0f);
+            lightingShader.setVec3("camPos", camera.Position);
 
             // light properties
             lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
