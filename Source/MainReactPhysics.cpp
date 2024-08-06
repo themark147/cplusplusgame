@@ -1,8 +1,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm/stb_image.h>
 
 #include <glm/glm/glm.hpp>
-#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/glm/ext/matrix_transform.hpp>
 #include <glm/glm/gtc/type_ptr.hpp>
 
 #include <iostream>
@@ -87,7 +88,7 @@ int main()
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-
+    
     mDebugVBOLinesVertices.create();
 
     // Create the VAO for both VBOs
@@ -119,11 +120,20 @@ int main()
 
     mDebugVBOTrianglesVertices.unbind();
 
+    stbi_set_flip_vertically_on_load(true);
+    glEnable(GL_DEPTH_TEST);
+
     Model mineModel("resource/backpack.obj", glm::vec3(0.0f, 0.0f, 0.0f));
     Model floorModel("resource/sphere.obj", glm::vec3(0.0f, 0.0f, 0.0f));
 
     Shader mainShader("Source/6.2.coordinate_systems.vs", "Source/6.2.coordinate_systems.fs");
+    Shader lightingShader("Source/light_casters.vs", "Source/light_casters.fs");
     PhysicsCommon physicsCommon;
+
+    lightingShader.use();
+    lightingShader.setInt("material.diffuse", 0);
+    lightingShader.setInt("material.specular", 1);
+    lightingShader.setInt("material.roughness", 3);
 
     // Create a physics world
     PhysicsWorld* world = physicsCommon.createPhysicsWorld();
@@ -136,9 +146,6 @@ int main()
 
     // Select the contact points and contact normals to be displayed
     debugRenderer.setIsDebugItemDisplayed(DebugRenderer::DebugItem::COLLISION_SHAPE, true);
-
-    // wireframe
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
     std::chrono::duration<double> timeStep = std::chrono::duration<double>(1.0f / 60.0f);
 
@@ -156,7 +163,10 @@ int main()
         // ----- Triangles ---- //
         const uint nbTriangles = debugRenderer.getNbTriangles();
 
-        std::cout << nbTriangles << std::endl;
+        // std::cout << nbTriangles << std::endl;
+
+        glClearColor(0.15f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         if (nbTriangles > 0)
         {
@@ -166,9 +176,6 @@ int main()
             mDebugVBOTrianglesVertices.copyDataIntoVBO(sizeVertices, debugRenderer.getTrianglesArray(), GL_STREAM_DRAW);
             mDebugVBOTrianglesVertices.unbind();
         }
-
-        glClearColor(0.15f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         mainShader.use();
 
@@ -201,16 +208,36 @@ int main()
 
         // Triangles
         if (nbTriangles > 0) {
+            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
             drawDebug(debugRenderer, vertexPositionLoc, vertexColorLoc);
+            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
         }
         
         for (std::vector<Object*>::iterator it = boxes.begin(); it != boxes.end(); ++it)
         {
+            lightingShader.use();
+
+            lightingShader.setVec3("light.direction", 0.0f, -5.0f, 0.0f);
+            lightingShader.setVec3("viewPos", camera.Position);
+
+            // light properties
+            lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
+            lightingShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
+            lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
+
+            // material properties
+            lightingShader.setFloat("material.shininess", 32.0f);
+
+            lightingShader.setMat4("projection", projection);
+            lightingShader.setMat4("view", view);
+
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, (*it)->getPosition());
             mainShader.setMat4("model", model * (*it)->getRotationMatrix());
+            lightingShader.setMat4("model", model * (*it)->getRotationMatrix());
             // Get the location of shader attribute variables
             mineModel.Draw(mainShader);
+            mineModel.Draw(lightingShader);
         }
 
         glfwSwapBuffers(window);
@@ -281,7 +308,7 @@ void createBox(PhysicsCommon& common, PhysicsWorld* world)
 
     boxes.push_back(object);
     object->create(common, world, BodyType::DYNAMIC, Vector3(1.5, 1.5, 1.5));
-    object->getRigidBody()->applyLocalForceAtLocalPosition(Vector3(1000, 1000, 1000) * Vector3(camera.Front.x, camera.Front.y, camera.Front.z), Vector3(0.15, 0.7, 1.5));
+    // object->getRigidBody()->applyLocalForceAtLocalPosition(Vector3(1000, 1000, 1000) * Vector3(camera.Front.x, camera.Front.y, camera.Front.z), Vector3(0.15, 0.7, 1.5));
 }
 
 void drawDebug(DebugRenderer& debugRenderer, uint vertexPositionLoc, uint vertexColorLoc)

@@ -1,17 +1,19 @@
-#include "imgui/imgui.h"
-#include "imgui/imgui_impl_glfw.h"
-#include "imgui/imgui_impl_opengl3.h"
+
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/stb_image.h>
 
 #include <glm/glm/glm.hpp>
-#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/glm/ext/matrix_transform.hpp>
 #include <glm/glm/gtc/type_ptr.hpp>
 
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_glfw.h"
+#include "imgui/imgui_impl_opengl3.h"
+
 #include <shadeer.h>
-// #include "../CubeClass.h"
+//#include "../CubeClass.h"
 #include "Camera.h"
 //#include "Mesh.h"
 //#include "Model.h"
@@ -42,7 +44,7 @@ const char* glsl_version = "#version 130";
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
-int main6456()
+int main()
 {
     // glfw: initialize and configure
     // ------------------------------
@@ -157,7 +159,7 @@ int main6456()
 
         // render the loaded model
         glm::mat4 model = glm::mat4(1.0f);
-        model = glm::translate(model, ourModel.getPosition()); // translate it down so it's at the center of the scene
+        model = glm::translate(model, glm::vec3(1.0f)); // translate it down so it's at the center of the scene
         model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));	// it's a bit too big for our scene, so scale it down
         lightingShader.setMat4("model", model);
         ourModel.Draw(lightingShader);
