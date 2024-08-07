@@ -3,8 +3,9 @@ out vec4 FragColor;
 
 struct Material {
     sampler2D diffuse; // albedo
-    sampler2D specular;    
-    sampler2D roughness;    
+    sampler2D specular;  
+    sampler2D normal;  
+    sampler2D roughness; 
     float shininess;
 }; 
 
@@ -64,10 +65,11 @@ void main()
     vec3 albedo = texture(material.diffuse, TexCoords).rgb;
     float roughness = texture(material.roughness, TexCoords).r;
     float metallic = texture(material.specular, TexCoords).r;
+    vec3 normalMap = texture(material.normal, TexCoords).rgb;
 
     vec3 L0 = vec3(0.0f);
 
-    vec3 N = normalize(Normal);
+    vec3 N = normalize(Normal * normalMap);
     vec3 V = normalize(camPos - FragPos);
     vec3 baseReflectivity = mix(vec3(0.04), albedo, metallic); // also known as F0 | last param is metallic
 

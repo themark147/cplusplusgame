@@ -61,11 +61,11 @@ BoxShape* Object::getShape()
 
 glm::mat4 Object::getRotationMatrix()
 {
-	// Matrix3x3 transformMatrix = getTransform().getOrientation().getMatrix();
-	Matrix3x3 transformMatrix = getTransform().getInverse().getOrientation().getMatrix();
-	Vector3 row0 = transformMatrix.getRow(0);
-	Vector3 row1 = transformMatrix.getRow(1);
-	Vector3 row2 = transformMatrix.getRow(2);
+	Matrix3x3 transformMatrix = getTransform().getOrientation().getMatrix();
+	// Matrix3x3 transformMatrix = getTransform().getInverse().getOrientation().getMatrix();
+	Vector3 row0 = transformMatrix.getColumn(0);
+	Vector3 row1 = transformMatrix.getColumn(1);
+	Vector3 row2 = transformMatrix.getColumn(2);
 
 	return glm::mat4(
 		glm::mat3(

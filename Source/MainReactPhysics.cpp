@@ -133,11 +133,11 @@ int main()
     lightingShader.use();
     lightingShader.setInt("material.diffuse", 0);
     lightingShader.setInt("material.specular", 1);
+    lightingShader.setInt("material.normal", 2);
     lightingShader.setInt("material.roughness", 3);
 
     // Create a physics world
     PhysicsWorld* world = physicsCommon.createPhysicsWorld();
-    world->setIsDebugRenderingEnabled(true);
 
     DebugRenderer& debugRenderer = world->getDebugRenderer();
 
@@ -150,7 +150,7 @@ int main()
     mLastUpdateTime = mStartTime;
     mAccumulator = std::chrono::duration<double>::zero();
 
-    Object* floor = new Object(glm::vec3(0, -10, 0));
+    Object* floor = new Object(glm::vec3(0, -5, 0));
     floor->create(physicsCommon, world, BodyType::STATIC, Vector3(10, 1, 10));
 
     while (!glfwWindowShouldClose(window))
@@ -158,12 +158,8 @@ int main()
         glfwPollEvents();
         processInput(window, physicsCommon, world);
 
-        rp3d::DebugRenderer& debugRenderer = world->getDebugRenderer();
-
         // ----- Triangles ---- //
         const uint nbTriangles = debugRenderer.getNbTriangles();
-
-        // std::cout << nbTriangles << std::endl;
 
         glClearColor(0.15f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -177,14 +173,6 @@ int main()
             mDebugVBOTrianglesVertices.unbind();
         }
 
-        mainShader.use();
-
-        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)widthScreen / (float)heightScreen, 0.1f, 100.0f);
-        mainShader.setMat4("projection", projection);
-
-        glm::mat4 view = camera.GetViewMatrix();
-        mainShader.setMat4("view", view);
-
         std::chrono::time_point<std::chrono::high_resolution_clock> currentTime = std::chrono::high_resolution_clock::now();
         deltaTime = currentTime - mLastUpdateTime;
 
@@ -197,11 +185,8 @@ int main()
 
             mAccumulator -= timeStep;
         }
-        
-        glm::mat4 model = glm::mat4(1.0f);
-        model = glm::translate(model, floor->getPosition());
-        mainShader.setMat4("model", floor->getRotationMatrix());
-        floorModel.Draw(mainShader);
+
+        mainShader.use();
 
         int vertexPositionLoc = mainShader.getAttribLocation("aPos");
         int vertexColorLoc = mainShader.getAttribLocation("vertexColor");
@@ -212,31 +197,41 @@ int main()
             drawDebug(debugRenderer, vertexPositionLoc, vertexColorLoc);
             glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
         }
+
+        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)widthScreen / (float)heightScreen, 0.1f, 100.0f);
+        mainShader.setMat4("projection", projection);
+
+        glm::mat4 view = camera.GetViewMatrix();
+        mainShader.setMat4("view", view);
+
+        lightingShader.use();
+
+        lightingShader.setMat4("projection", projection);
+        lightingShader.setMat4("view", view);
+
+        lightingShader.setVec3("light.position", 0.0f, 4.0f, 0.0f);
+        lightingShader.setVec3("camPos", camera.Position);
+
+        // light properties
+        lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
+        lightingShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
+        lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
+
+        // material properties
+        lightingShader.setFloat("material.shininess", 32.0f);
+
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, floor->getPosition());
+
+        lightingShader.setMat4("model", model * floor->getRotationMatrix());
+        floorModel.Draw(lightingShader);
         
         for (std::vector<Object*>::iterator it = boxes.begin(); it != boxes.end(); ++it)
         {
-            lightingShader.use();
-
-            lightingShader.setVec3("light.position", 0.0f, 7.0f, 0.0f);
-            lightingShader.setVec3("camPos", camera.Position);
-
-            // light properties
-            lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
-            lightingShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
-            lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
-
-            // material properties
-            lightingShader.setFloat("material.shininess", 32.0f);
-
-            lightingShader.setMat4("projection", projection);
-            lightingShader.setMat4("view", view);
-
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, (*it)->getPosition());
-            mainShader.setMat4("model", model * (*it)->getRotationMatrix());
+
             lightingShader.setMat4("model", model * (*it)->getRotationMatrix());
-            // Get the location of shader attribute variables
-            mineModel.Draw(mainShader);
             mineModel.Draw(lightingShader);
         }
 
@@ -259,6 +254,14 @@ void processInput(GLFWwindow* window, PhysicsCommon& common, PhysicsWorld* world
         F_pressed = true;
     } else if (glfwGetKey(window, GLFW_KEY_F) == GLFW_RELEASE && F_pressed == true) {
         F_pressed = false;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_TAB) == GLFW_PRESS && TAB_pressed == false) {
+        world->setIsDebugRenderingEnabled(true);
+        TAB_pressed = true;
+    }
+    else if (glfwGetKey(window, GLFW_KEY_TAB) == GLFW_RELEASE && TAB_pressed == true) {
+        TAB_pressed = false;
     }
 
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
