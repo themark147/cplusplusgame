@@ -21,6 +21,7 @@ struct Light {
 in vec3 FragPos; // maybe same as worldPos
 in vec3 Normal;  
 in vec2 TexCoords;
+in mat3 TBN;
   
 uniform vec3 camPos;
 
@@ -63,13 +64,18 @@ float GeometrySchlickGGX(float NdotV, float NdotL, float roughness)
 void main()
 {
     vec3 albedo = texture(material.diffuse, TexCoords).rgb;
-    float roughness = texture(material.roughness, TexCoords).r;
-    float metallic = texture(material.specular, TexCoords).r;
+    
+    float roughness = texture(material.roughness, TexCoords).g;
+    float metallic = texture(material.roughness, TexCoords).b;
     vec3 normalMap = texture(material.normal, TexCoords).rgb;
+
+
+    vec3 N = 2.0 * texture(material.normal, TexCoords).rgb - 1.0;
+	N = normalize(TBN * N);
 
     vec3 L0 = vec3(0.0f);
 
-    vec3 N = normalize(Normal * normalMap);
+    // vec3 N = normalize(normalMap * Normal);
     vec3 V = normalize(camPos - FragPos);
     vec3 baseReflectivity = mix(vec3(0.04), albedo, metallic); // also known as F0 | last param is metallic
 
@@ -78,7 +84,7 @@ void main()
 
     float distance = length(light.position - FragPos);
     float attenuation = 1.0 / (distance * distance);
-    vec3 radiance = light.diffuse * attenuation * 300.0; // diffuse = color * attenuation == "brightness"
+    vec3 radiance = light.diffuse * attenuation * 30000.0; // diffuse = color * attenuation == "brightness"
 
     float NdotV = max(dot(N, V), 0.0000001);
     float NdotL = max(dot(N, L), 0.0000001);
@@ -98,9 +104,9 @@ void main()
     vec3 kD = vec3(1.0) - F;
     kD *= 1.0 - metallic; // Assuming metallic value is 0.5
 
-    L0 = (kD * albedo / PI + specular) * radiance * NdotL;
+    L0 += (kD * albedo / PI + specular) * radiance * NdotL;
 
-    vec3 ambient = vec3(0.03) * albedo;
+    vec3 ambient = vec3(0.04) * albedo;
     vec3 color = ambient + L0;
 
     // HDR

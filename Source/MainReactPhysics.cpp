@@ -123,8 +123,9 @@ int main()
     stbi_set_flip_vertically_on_load(true);
     glEnable(GL_DEPTH_TEST);
 
-    Model mineModel("resource/backpack.obj", glm::vec3(0.0f, 0.0f, 0.0f));
     Model floorModel("resource/sphere.obj", glm::vec3(0.0f, 0.0f, 0.0f));
+    Model mineModel("resource/AR15/AR-15_LP.gltf", glm::vec3(0.0f, 0.0f, 0.0f));
+    
 
     Shader mainShader("Source/6.2.coordinate_systems.vs", "Source/6.2.coordinate_systems.fs");
     Shader lightingShader("Source/light_casters.vs", "Source/light_casters.fs");
@@ -132,9 +133,9 @@ int main()
 
     lightingShader.use();
     lightingShader.setInt("material.diffuse", 0);
-    lightingShader.setInt("material.specular", 1);
-    lightingShader.setInt("material.normal", 2);
-    lightingShader.setInt("material.roughness", 3);
+    //lightingShader.setInt("material.specular", 2);
+    lightingShader.setInt("material.normal", 1);
+    lightingShader.setInt("material.roughness", 2);
 
     // Create a physics world
     PhysicsWorld* world = physicsCommon.createPhysicsWorld();
@@ -209,7 +210,7 @@ int main()
         lightingShader.setMat4("projection", projection);
         lightingShader.setMat4("view", view);
 
-        lightingShader.setVec3("light.position", 0.0f, 4.0f, 0.0f);
+        lightingShader.setVec3("light.position", 0.0f, 40.0f, 30.0f);
         lightingShader.setVec3("camPos", camera.Position);
 
         // light properties

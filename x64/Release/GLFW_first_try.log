@@ -6,27 +6,27 @@ C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d
 C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\ConvexMesh.h(138,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
 C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(146,26): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
 C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\include\reactphysics3d\collision\TriangleMesh.h(151,30): warning C4244: 'return': conversion from 'reactphysics3d::uint64' to 'reactphysics3d::uint32', possible loss of data
-C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(184,41): warning C4244: 'argument': conversion from '_Rep' to 'reactphysics3d::decimal', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(185,41): warning C4244: 'argument': conversion from '_Rep' to 'reactphysics3d::decimal', possible loss of data
           with
           [
               _Rep=double
           ]
-C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(268,56): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(269,56): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=double
           ]
-C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(270,57): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(271,57): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=double
           ]
-C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(272,53): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(273,53): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=double
           ]
-C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(274,54): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+C:\Users\marku\source\repos\GLFW_first_try\GLFW_first_try\Source\MainReactPhysics.cpp(275,54): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=double
